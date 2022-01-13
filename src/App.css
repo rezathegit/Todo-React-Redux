@@ -1,0 +1,143 @@
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+body {
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+  color: darkgrey;
+  font-family: 'Roboto', sans-serif;
+  min-height: 100vh;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.app-title {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 2rem;
+    padding-top: 1rem;
+}
+
+.filters-container {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 3rem;
+}
+
+.notodoyet {
+  display: flex;
+  justify-content: center;
+}
+.completed {
+    text-decoration: line-through;
+    opacity: 0.3;
+    color: rgb(177, 177, 177);
+}
+
+.done-btn {
+  background: white;
+  color: darkgrey;
+  border: none;
+  padding: 1rem;
+  cursor: pointer;
+  font-size: 1rem;
+  
+}
+.done-btn:hover {
+          background: green;
+          color: white;
+}
+
+.todo-list {
+    min-width: 30%;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    height: 450px;
+}
+  
+.todo {
+  margin: 1rem;
+  background: white;
+  font-size: 1.5rem;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 1s ease;
+}
+.delete-btn {
+  background: white;
+  color: darkgrey;
+  border: none;
+  padding: 1rem;
+  cursor: pointer;
+  font-size: 1rem;
+    
+    }
+.delete-btn:hover {
+  background: red;
+  color: white;
+}
+            
+.todo-item {
+  padding: 0rem 0.4rem;
+  overflow: hidden;
+  overflow-wrap: break-word;
+}
+
+.edit-btn {
+  background: white;
+  color: darkgrey;
+  border: none;
+  padding: 1rem;
+  cursor: pointer;
+  font-size: 1rem;
+  
+}
+.edit-btn:hover {
+  background: orange;
+  color: white;
+}
+
+
+.add-btn {
+  background: white;
+  color: darkgrey;
+  border: none;
+  padding: .2rem;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.add-btn:hover {
+  background: #ffdf00;
+  color: white;
+}
+
+.filters-btn {
+  background-color: #e7e7e7;
+  color: black;
+  padding: 4px 8px;
+  border-radius: 4px;
+  transition-duration: 0.4s;
+  border: none;
+  margin-right: 0.5rem;
+}
+
+.filters-btn:hover {
+  background-color: rgb(119, 119, 119);
+  color: #e7e7e7;
+}
+
+.input-todo {
+  border: none;
+  border-bottom: 2px
+ solid #ffdf00;
+}
