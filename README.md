@@ -1,10 +1,16 @@
+# Todo app with React and Redux
+
+See it live here: https://gracious-poincare-70096d.netlify.app/
 
 
-see it live: https://gracious-poincare-70096d.netlify.app/
 
 
 
 
+
+
+
+----
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
 
 ## Available Scripts
