@@ -4,10 +4,31 @@ See it live here: https://gracious-poincare-70096d.netlify.app/
 
 
 
+## Folder and file structure
 
+````
+.
+├── App.css
+├── App.js
+├── components
+│   ├── AddTodo.js
+│   ├── Todo.js
+│   ├── TodoList.js
+│   └── VisibilityFilter.js
+├── constants.js
+├── index.js
+└── redux
+    ├── actions.js
+    ├── actionsType.js
+    ├── localStorage.js
+    ├── reducer
+    │   ├── index.js
+    │   ├── todos.js
+    │   └── visibilityFilter.js
+    ├── selector.js
+    └── store.js
 
-
-
+````
 
 
 ----
