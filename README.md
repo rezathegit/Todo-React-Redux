@@ -1,6 +1,6 @@
 # Todo app with React and Redux
 
-See it live here: https://gracious-poincare-70096d.netlify.app/
+Check out the app deployed on [Netlify](https://gracious-poincare-70096d.netlify.app/)
 
 
 
